@@ -4,49 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ab1dea-1464-4762-bae8-66b92310c02a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/api-gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/bookstore-webapp.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/notification-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sdkmanrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/ApplicationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/CatalogServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/config/OpenAPI3Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/PagedResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/domain/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/web/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/sivalabs/bookstore/catalog/web/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V1__create_products_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V2__add_books_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/AbstractIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/ContainersConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/TestCatalogServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/domain/ProductRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/sivalabs/bookstore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f3ab1dea-1464-4762-bae8-66b92310c02a" name="Changes" comment="Catalog service module setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +38,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
@@ -162,6 +125,23 @@
       <option name="presentableId" value="Default" />
       <updated>1784705720467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Catalog service module setup">
+      <option name="closed" value="true" />
+      <created>1784966290649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784966290649</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Catalog service module setup">
+      <option name="closed" value="true" />
+      <created>1784966300802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784966300802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +157,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Catalog service module setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catalog service module setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
