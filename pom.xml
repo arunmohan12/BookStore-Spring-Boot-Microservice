@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sivalabs</groupId>
+    <groupId>com.arun</groupId>
     <artifactId>spring-boot-microservices-course</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -17,13 +17,9 @@
         <spotless-maven-plugin.version>3.8.0</spotless-maven-plugin.version>
     </properties>
 
-<!--    <modules>-->
-<!--        <module>catalog-service</module>-->
-<!--        <module>order-service</module>-->
-<!--        <module>notification-service</module>-->
-<!--        <module>api-gateway</module>-->
-<!--        <module>bookstore-webapp</module>-->
-<!--    </modules>-->
+    <modules>
+        <module>catalog-service</module>
+    </modules>
 
     <build>
         <plugins>
