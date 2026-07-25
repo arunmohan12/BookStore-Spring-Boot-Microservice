@@ -46,5 +46,11 @@ jobs:
         name: Build and Publish Docker Image
         run: |
           ./mvnw spring-boot:build-image -DskipTests
+          echo "========== Docker Images =========="
+          docker images
+
+          echo "========== Image Name =========="
+          echo "DOCKER_IMAGE_NAME=$DOCKER_IMAGE_NAME"
+
           echo "Pushing the image $DOCKER_IMAGE_NAME to Docker Hub..."
           docker push $DOCKER_IMAGE_NAME
