@@ -5,31 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ab1dea-1464-4762-bae8-66b92310c02a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taskfile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Taskfile.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/config/OpenAPI3Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/config/OpenAPI3Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/PagedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/PagedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/domain/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/web/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/web/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/web/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/bookstore/catalog/web/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/AbstractIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/AbstractIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/ContainersConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/ContainersConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/TestCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/domain/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/domain/ProductRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/web/controllers/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/bookstore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/scilens/Documents/Scilens web/Java/Microservice/BookStore-Spring-Boot-Microservice" value="3H8NZR8rCqWuByyWqCk8KYqSpIR" />
+    </persistenceIdMap>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,14 +58,32 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.CatalogServiceApplication.executor": "Run",
+    "Application.CatalogServiceApplication.executor": "Debug",
+    "Docker.docker-compose/apps.yml.bookstore-webapp: Compose Deployment.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ProductRepositoryTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.shouldGetAllProducts.executor": "Run",
     "Maven.spring-boot-microservices-course [wrapper...].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -87,6 +95,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "feature/catalog-service",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/scilens/Documents/Scilens web/Java/Microservice/BookStore-Spring-Boot-Microservice",
@@ -99,7 +108,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.23563218",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -121,7 +130,7 @@
       <command value="mvn wrapper : wrapper" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose/apps.yml.bookstore-webapp: Compose Deployment">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-25" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,6 +140,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookstore.catalog.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookstore.catalog.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.bookstore.catalog.domain.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.shouldGetAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookstore.catalog.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookstore.catalog.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.bookstore.catalog.domain.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldGetAllProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/apps.yml.bookstore-webapp: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="bookstore-webapp" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="deployment/docker-compose/apps.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose/apps.yml.bookstore-webapp: Compose Deployment" />
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldGetAllProducts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

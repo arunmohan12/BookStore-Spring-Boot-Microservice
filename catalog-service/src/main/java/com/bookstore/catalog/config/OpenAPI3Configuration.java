@@ -17,6 +17,7 @@ class OpenAPI3Configuration {
 
     @Bean
     OpenAPI openApi() {
+
         return new OpenAPI()
                 .info(new Info()
                         .title("Catalog Service APIs")
