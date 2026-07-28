@@ -14,7 +14,6 @@ class OpenAPI3Configuration {
 
     @Value("${swagger.api-gateway-url}")
     String apiGatewayUrl;
-
     @Bean
     OpenAPI openApi() {
         return new OpenAPI()
