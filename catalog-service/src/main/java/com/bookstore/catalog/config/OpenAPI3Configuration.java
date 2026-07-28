@@ -1,4 +1,4 @@
-package com.sivalabs.bookstore.catalog.config;
+package com.bookstore.catalog.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -14,6 +14,7 @@ class OpenAPI3Configuration {
 
     @Value("${swagger.api-gateway-url}")
     String apiGatewayUrl;
+
     @Bean
     OpenAPI openApi() {
         return new OpenAPI()

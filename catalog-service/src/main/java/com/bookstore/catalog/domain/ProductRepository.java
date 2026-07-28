@@ -1,4 +1,4 @@
-package com.sivalabs.bookstore.catalog.domain;
+package com.bookstore.catalog.domain;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

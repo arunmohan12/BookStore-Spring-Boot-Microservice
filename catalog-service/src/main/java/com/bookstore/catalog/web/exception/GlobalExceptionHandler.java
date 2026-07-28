@@ -1,6 +1,6 @@
-package com.sivalabs.bookstore.catalog.web.exception;
+package com.bookstore.catalog.web.exception;
 
-import com.sivalabs.bookstore.catalog.domain.ProductNotFoundException;
+import com.bookstore.catalog.domain.ProductNotFoundException;
 import java.net.URI;
 import java.time.Instant;
 import org.springframework.http.HttpStatus;

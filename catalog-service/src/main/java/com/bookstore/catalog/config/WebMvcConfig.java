@@ -1,4 +1,4 @@
-package com.sivalabs.bookstore.catalog.config;
+package com.bookstore.catalog.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

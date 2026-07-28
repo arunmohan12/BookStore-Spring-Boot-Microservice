@@ -1,12 +1,12 @@
-package com.sivalabs.bookstore.catalog.web.controllers;
+package com.bookstore.catalog.web.controllers;
 
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
 
-import com.sivalabs.bookstore.catalog.AbstractIT;
-import com.sivalabs.bookstore.catalog.domain.Product;
+import com.bookstore.catalog.AbstractIT;
+import com.bookstore.catalog.domain.Product;
 import io.restassured.http.ContentType;
 import java.math.BigDecimal;
 import org.junit.jupiter.api.Test;

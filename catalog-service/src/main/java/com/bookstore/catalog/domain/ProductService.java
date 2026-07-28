@@ -1,6 +1,6 @@
-package com.sivalabs.bookstore.catalog.domain;
+package com.bookstore.catalog.domain;
 
-import com.sivalabs.bookstore.catalog.ApplicationProperties;
+import com.bookstore.catalog.ApplicationProperties;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

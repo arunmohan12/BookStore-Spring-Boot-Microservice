@@ -1,4 +1,4 @@
-package com.sivalabs.bookstore.catalog;
+package com.bookstore.catalog;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 

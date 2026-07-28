@@ -1,4 +1,4 @@
-package com.sivalabs.bookstore.catalog;
+package com.bookstore.catalog;
 
 import org.junit.jupiter.api.Test;
 
